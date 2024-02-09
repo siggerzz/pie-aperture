@@ -9,6 +9,9 @@ on:
       - 'webdriver-helpers/**'
       - 'wdio.conf.js'
 
+  repository_dispatch:
+    types: [pie-snapshot-trigger]
+
   push:
     branches:
       - main
